@@ -31,7 +31,7 @@
     margin-bottom: 30px;
 }
 
-.lista, .form{
+.lista{
     min-height: 45px;
     border: solid 2px black;
     background-color: white;
@@ -41,13 +41,23 @@
     margin-bottom: 1px;
 }
 
+.form{
+    min-height: 45px;
+    border: solid 2px black;
+    background-color: white;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin-bottom: 1px;
+}
+
 .adiciona-tarefa, .botao-adicona{
     height: 100%;
     border: none;
     outline: none;
     min-width: 80px;
     font-size: 20px;
-    padding-left: 5px;
+    padding-left: 10px;
 }
 
 .list{
