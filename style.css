@@ -37,8 +37,14 @@
     background-color: white;
     display: flex;
     width: 300px;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 1px;
+    padding-left: 10px;
+}
+
+p{
+    font-size: 20px; 
 }
 
 .form{
