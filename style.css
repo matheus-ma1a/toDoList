@@ -7,14 +7,6 @@
     font-family: 'Bebas Neue', cursive;
 }
 
-h1{
-    font-size: 50px;
-    text-align: center;
-    line-height: 3rem;
-    color: rgba(0, 0, 0, 0.568);
-    margin-bottom: 30px;
-}
-
 .app{
     width: 100vw;
     height: 100vh;
@@ -25,13 +17,40 @@ h1{
     flex-direction: column;
 }
 
-.cobre{
+.header{
     display: flex;
     flex-direction: column;
 
 }
 
-.contain{
+.main-title{
+    font-size: 50px;
+    text-align: center;
+    line-height: 3rem;
+    color: rgba(0, 0, 0, 0.568);
+    margin-bottom: 30px;
+}
+
+.lista, .form{
+    min-height: 45px;
+    border: solid 2px black;
+    background-color: white;
+    display: flex;
+    width: 300px;
+    justify-content: flex-end;
+    margin-bottom: 1px;
+}
+
+.adiciona-tarefa, .botao-adicona{
+    height: 100%;
+    border: none;
+    outline: none;
+    min-width: 80px;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.list{
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -40,32 +59,12 @@ h1{
     overflow-y: scroll;
 }
 
-.lista{
-    min-height: 45px;
-    border: solid 2px black;
-    background-color: white;
-    display: flex;
-    width: 300px;
-    justify-content: space-between;
-    margin-bottom: 1px;
-}
-
-.btn{
+.botao-deleta{
     min-width: 80px;
     height: 100%;
     border: none;
     cursor: pointer;
     font-size: 20px;
-}
-
-.inputText{
-    height: 100%;
-    border: none;
-    outline: none;
-    width: inherit;
-    font-size: 20px;
-    padding-left: 5px;
-    cursor: pointer;
 }
 
 ::-webkit-scrollbar{

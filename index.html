@@ -10,22 +10,20 @@
 </head>
 <body>
     <div class="app">
-        <div class="cobre">
-            <h1>ToDo List</h1>
+        <header class="header">
+            <h1 class="main-title">ToDo List</h1>
 
-            <form class="lista" >
-                <input class="inputText add" value="ola" type="text">
-                <button class="btn add" >ADD</button>
+            <form class="form" >
+                <input class="adiciona-tarefa" placeholder="Digite Aqui" type="text">
+                <button class="botao-adicona" >ADD</button>
             </form>
 
-        </div>
-        <div class="contain">
-            <form class="lista" >
-                <input class="inputText del" type="text">
-                <button class="btn del" >Remove</button>
-            </form>
-            
-        </div>
+        </header>
+        <ul class="list">
+            <li class="lista">
+                <button class="botao-deleta" >Delete</button>
+            </li>
+        </ul>
     </div>
 </body>
 </html>
